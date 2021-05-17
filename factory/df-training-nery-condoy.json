@@ -1,0 +1,9 @@
+{
+	"name": "df-training-nery-condoy",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac772ef7-ecd4-4d6c-a51f-e2b3354d53c5",
+		"tenantId": "24f3294b-88ae-459d-84cf-d8842a21f3ed"
+	}
+}
