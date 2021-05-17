@@ -1,0 +1,10 @@
+{
+	"name": "Mi_pipeline1",
+	"properties": {
+		"description": "Pruebita",
+		"folder": {
+			"name": "Clase01"
+		},
+		"annotations": []
+	}
+}
