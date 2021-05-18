@@ -1,0 +1,19 @@
+{
+	"name": "ds_tabla_param",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_baseOracle",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "CLASE02"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "FISA",
+			"table": "TGEN_TABLAS"
+		}
+	}
+}
