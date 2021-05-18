@@ -1,0 +1,18 @@
+{
+	"name": "ls_archivosLocales",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Conexión para archivos locales",
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\ncondoy\\Desktop\\Nery",
+			"userId": "bcodeloja\\ncondoy",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhZDZkNWIzOS01NjE3LTQwZjYtYmMxZS01YmRkODJhYzMxNzEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-Conexion-Local",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
