@@ -1,0 +1,19 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dl_conexionBase",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "CLASE02"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Nery",
+			"table": "tabla_param_oracle"
+		}
+	}
+}
