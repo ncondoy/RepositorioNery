@@ -1,0 +1,27 @@
+{
+	"name": "CSV_Copia_Archivo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_datalake01",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "CLASE02"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ArchivoCSV_copiado.csv",
+				"folderPath": "CLASE02",
+				"fileSystem": "aci-nery-condoy"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
