@@ -16,8 +16,18 @@
 				"type": "FileServerLocation",
 				"fileName": "pruebas transacciones.xlsx"
 			},
-			"firstRowAsHeader": true
+			"firstRowAsHeader": false
 		},
-		"schema": []
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
 	}
 }
