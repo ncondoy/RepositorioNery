@@ -1,0 +1,7 @@
+{
+	"name": "IR-Conexion-Local",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Conexión a una maquina on-premis"
+	}
+}
