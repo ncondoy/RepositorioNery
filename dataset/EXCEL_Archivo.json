@@ -1,0 +1,23 @@
+{
+	"name": "EXCEL_Archivo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_archivosLocales",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "CLASE02"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Select tgen_usuario (2)",
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "pruebas transacciones.xlsx"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
